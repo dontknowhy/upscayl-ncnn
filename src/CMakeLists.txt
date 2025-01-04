@@ -147,6 +147,8 @@ if(NOT USE_SYSTEM_NCNN)
     option(NCNN_BUILD_EXAMPLES "" OFF)
     option(NCNN_DISABLE_RTTI "" ON)
     option(NCNN_DISABLE_EXCEPTION "" ON)
+    option(NCNN_ENABLE_LTO "" ON)
+    option(NCNN_SIMPLEVK "" OFF)
 
     option(WITH_LAYER_absval "" OFF)
     option(WITH_LAYER_argmax "" OFF)
