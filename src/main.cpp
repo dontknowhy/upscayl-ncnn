@@ -21,13 +21,13 @@ namespace fs = std::filesystem;
 #define STBI_NO_HDR
 #define STBI_NO_PIC
 #define STBI_NO_STDIO
-#include "stb_image.h"
+#include "stb/stb_image.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "stb_image_write.h"
+#include "stb/stb_image_write.h"
 #endif // _WIN32
 #include "webp_image.h"
 #define STB_IMAGE_RESIZE2_IMPLEMENTATION
-#include "stb_image_resize2.h"
+#include "stb/stb_image_resize2.h"
 
 static const char *resizemodes[] = {
     "default",      // STBIR_FILTER_DEFAULT

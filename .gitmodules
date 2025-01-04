@@ -4,3 +4,6 @@
 [submodule "src/libwebp"]
 	path = src/libwebp
 	url = git@github.com:webmproject/libwebp.git
+[submodule "src/stb"]
+	path = src/stb
+	url = git@github.com:nothings/stb.git
